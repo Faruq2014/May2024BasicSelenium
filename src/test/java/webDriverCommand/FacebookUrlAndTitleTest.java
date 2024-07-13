@@ -1,5 +1,7 @@
 package webDriverCommand;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -7,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class FacebookLoginTest {
+public class FacebookUrlAndTitleTest {
 	WebDriver driver;
 	
 	// open application
@@ -15,6 +17,11 @@ public class FacebookLoginTest {
 	public void openApp() {
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
+		//driver.manage().window().minimize();
+		//driver.manage().window().fullscreen();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
 	//do login tests
@@ -41,7 +48,7 @@ public class FacebookLoginTest {
 	
 	
 	//close the application
-	@AfterTest
+	//@AfterTest
 	public void closeApp() {
 		driver.quit();
 		
