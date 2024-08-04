@@ -1,165 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-14T12:13:37 EDT" name="Regression Suite" finished-at="2024-07-14T12:14:45 EDT" duration-ms="68441">
+  <suite started-at="2024-08-04T12:41:29 EDT" name="Default suite" finished-at="2024-08-04T12:41:38 EDT" duration-ms="9309">
     <groups>
-      <group name="Smoke">
-        <method signature="LinkTest.messengerLinkTest()[pri:0, instance:facebookBase.LinkTest@1a482e36]" name="messengerLinkTest" class="facebookBase.LinkTest"/>
-        <method signature="LoginTest.validLoginTest()[pri:0, instance:facebookBase.LoginTest@6d763516]" name="validLoginTest" class="facebookBase.LoginTest"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-07-14T12:13:37 EDT" name="Regression Tests" finished-at="2024-07-14T12:14:45 EDT" duration-ms="68441">
-      <class name="webDriverCommand.FacebookUrlAndTitleTest2">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest2@67c27493]" started-at="2024-07-14T12:13:53 EDT" name="openApp" finished-at="2024-07-14T12:13:55 EDT" duration-ms="2172" status="PASS">
+    <test started-at="2024-08-04T12:41:29 EDT" name="Default test" finished-at="2024-08-04T12:41:38 EDT" duration-ms="9309">
+      <class name="facebookBase.LoginTestWithMultipleBrowser">
+        <test-method is-config="true" signature="openTest()[pri:0, instance:facebookBase.LoginTestWithMultipleBrowser@4fb0f2b9]" started-at="2024-08-04T12:41:29 EDT" name="openTest" finished-at="2024-08-04T12:41:35 EDT" duration-ms="6708" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="titleTest()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest2@67c27493]" started-at="2024-07-14T12:13:55 EDT" name="titleTest" finished-at="2024-07-14T12:13:56 EDT" duration-ms="845" status="PASS">
+        </test-method> <!-- openTest -->
+        <test-method signature="loginTest()[pri:0, instance:facebookBase.LoginTestWithMultipleBrowser@4fb0f2b9]" started-at="2024-08-04T12:41:35 EDT" name="loginTest" finished-at="2024-08-04T12:41:37 EDT" duration-ms="1497" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest2@67c27493]" started-at="2024-07-14T12:13:56 EDT" name="closeApp" finished-at="2024-07-14T12:13:57 EDT" duration-ms="358" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:facebookBase.LoginTestWithMultipleBrowser@4fb0f2b9]" started-at="2024-08-04T12:41:37 EDT" name="closeTest" finished-at="2024-08-04T12:41:38 EDT" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest2@67c27493]" started-at="2024-07-14T12:13:57 EDT" name="openApp" finished-at="2024-07-14T12:13:59 EDT" duration-ms="2160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="urlTest()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest2@67c27493]" started-at="2024-07-14T12:13:59 EDT" name="urlTest" finished-at="2024-07-14T12:13:59 EDT" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest2@67c27493]" started-at="2024-07-14T12:13:59 EDT" name="closeApp" finished-at="2024-07-14T12:13:59 EDT" duration-ms="224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- webDriverCommand.FacebookUrlAndTitleTest2 -->
-      <class name="facebookBase.LoginTest">
-        <test-method is-config="true" signature="initializeTest()[pri:0, instance:facebookBase.LoginTest@6d763516]" started-at="2024-07-14T12:13:42 EDT" name="initializeTest" finished-at="2024-07-14T12:13:45 EDT" duration-ms="2959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeTest -->
-        <test-method signature="validLoginTest()[pri:0, instance:facebookBase.LoginTest@6d763516]" started-at="2024-07-14T12:13:45 EDT" name="validLoginTest" finished-at="2024-07-14T12:13:47 EDT" duration-ms="1470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:facebookBase.LoginTest@6d763516]" started-at="2024-07-14T12:13:47 EDT" name="tearDownTest" finished-at="2024-07-14T12:13:47 EDT" duration-ms="254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="initializeTest()[pri:0, instance:facebookBase.LoginTest@6d763516]" started-at="2024-07-14T12:13:47 EDT" name="initializeTest" finished-at="2024-07-14T12:13:51 EDT" duration-ms="3460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeTest -->
-        <test-method signature="invalidLoginTest()[pri:1, instance:facebookBase.LoginTest@6d763516]" started-at="2024-07-14T12:13:51 EDT" name="invalidLoginTest" finished-at="2024-07-14T12:13:53 EDT" duration-ms="1939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:facebookBase.LoginTest@6d763516]" started-at="2024-07-14T12:13:53 EDT" name="tearDownTest" finished-at="2024-07-14T12:13:53 EDT" duration-ms="569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- facebookBase.LoginTest -->
-      <class name="facebookLinks.LinkTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:facebookLinks.LinkTest@5b8dfcc1]" started-at="2024-07-14T12:13:37 EDT" name="openApplication" finished-at="2024-07-14T12:13:40 EDT" duration-ms="2875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="espanolLinkTest()[pri:0, instance:facebookLinks.LinkTest@5b8dfcc1]" started-at="2024-07-14T12:14:06 EDT" name="espanolLinkTest" finished-at="2024-07-14T12:14:06 EDT" duration-ms="591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- espanolLinkTest -->
-        <test-method signature="hindiLinkTest()[pri:0, instance:facebookLinks.LinkTest@5b8dfcc1]" started-at="2024-07-14T12:14:06 EDT" name="hindiLinkTest" finished-at="2024-07-14T12:14:07 EDT" duration-ms="512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hindiLinkTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:facebookLinks.LinkTest@5b8dfcc1]" started-at="2024-07-14T12:14:45 EDT" name="closeApplication" finished-at="2024-07-14T12:14:45 EDT" duration-ms="164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- facebookLinks.LinkTest -->
-      <class name="webDriverCommand.FacebookUrlAndTitleTest">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest@72967906]" started-at="2024-07-14T12:13:40 EDT" name="openApp" finished-at="2024-07-14T12:13:42 EDT" duration-ms="2873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="titleTest()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest@72967906]" started-at="2024-07-14T12:14:06 EDT" name="titleTest" finished-at="2024-07-14T12:14:06 EDT" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method signature="urlTest()[pri:0, instance:webDriverCommand.FacebookUrlAndTitleTest@72967906]" started-at="2024-07-14T12:14:06 EDT" name="urlTest" finished-at="2024-07-14T12:14:06 EDT" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlTest -->
-      </class> <!-- webDriverCommand.FacebookUrlAndTitleTest -->
-      <class name="facebookBase.LinkTest">
-        <test-method is-config="true" signature="initializeTest()[pri:0, instance:facebookBase.LinkTest@1a482e36]" started-at="2024-07-14T12:13:59 EDT" name="initializeTest" finished-at="2024-07-14T12:14:01 EDT" duration-ms="2285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeTest -->
-        <test-method signature="messengerLinkTest()[pri:0, instance:facebookBase.LinkTest@1a482e36]" started-at="2024-07-14T12:14:01 EDT" name="messengerLinkTest" finished-at="2024-07-14T12:14:02 EDT" duration-ms="1100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- messengerLinkTest -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:facebookBase.LinkTest@1a482e36]" started-at="2024-07-14T12:14:02 EDT" name="tearDownTest" finished-at="2024-07-14T12:14:03 EDT" duration-ms="275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="initializeTest()[pri:0, instance:facebookBase.LinkTest@1a482e36]" started-at="2024-07-14T12:14:03 EDT" name="initializeTest" finished-at="2024-07-14T12:14:05 EDT" duration-ms="2187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeTest -->
-        <test-method signature="espanolLinkTest()[pri:1, instance:facebookBase.LinkTest@1a482e36]" started-at="2024-07-14T12:14:05 EDT" name="espanolLinkTest" finished-at="2024-07-14T12:14:06 EDT" duration-ms="726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- espanolLinkTest -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:facebookBase.LinkTest@1a482e36]" started-at="2024-07-14T12:14:06 EDT" name="tearDownTest" finished-at="2024-07-14T12:14:06 EDT" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- facebookBase.LinkTest -->
-      <class name="facebookLogin.LoginTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:facebookLogin.LoginTest@2f9f7dcf]" started-at="2024-07-14T12:14:07 EDT" name="openApplication" finished-at="2024-07-14T12:14:10 EDT" duration-ms="2662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:facebookLogin.LoginTest@2f9f7dcf]" started-at="2024-07-14T12:14:10 EDT" name="invalidLoginTest" finished-at="2024-07-14T12:14:26 EDT" duration-ms="16436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:facebookLogin.LoginTest@2f9f7dcf]" started-at="2024-07-14T12:14:26 EDT" name="closeApplication" finished-at="2024-07-14T12:14:26 EDT" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:facebookLogin.LoginTest@2f9f7dcf]" started-at="2024-07-14T12:14:26 EDT" name="openApplication" finished-at="2024-07-14T12:14:29 EDT" duration-ms="2399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="validLoginTest()[pri:0, instance:facebookLogin.LoginTest@2f9f7dcf]" started-at="2024-07-14T12:14:29 EDT" name="validLoginTest" finished-at="2024-07-14T12:14:30 EDT" duration-ms="1130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:facebookLogin.LoginTest@2f9f7dcf]" started-at="2024-07-14T12:14:30 EDT" name="closeApplication" finished-at="2024-07-14T12:14:30 EDT" duration-ms="232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- facebookLogin.LoginTest -->
-      <class name="webDriverCommand.HowToOpenBrowserAndApplication">
-        <test-method signature="openApplicationWithChrome()[pri:0, instance:webDriverCommand.HowToOpenBrowserAndApplication@747ddf94]" started-at="2024-07-14T12:14:30 EDT" name="openApplicationWithChrome" finished-at="2024-07-14T12:14:32 EDT" duration-ms="2304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationWithChrome -->
-        <test-method signature="openApplicationWithEdge()[pri:0, instance:webDriverCommand.HowToOpenBrowserAndApplication@747ddf94]" started-at="2024-07-14T12:14:32 EDT" name="openApplicationWithEdge" finished-at="2024-07-14T12:14:37 EDT" duration-ms="4709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationWithEdge -->
-        <test-method signature="openApplicationWithFirefox()[pri:0, instance:webDriverCommand.HowToOpenBrowserAndApplication@747ddf94]" started-at="2024-07-14T12:14:37 EDT" name="openApplicationWithFirefox" finished-at="2024-07-14T12:14:45 EDT" duration-ms="7983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationWithFirefox -->
-      </class> <!-- webDriverCommand.HowToOpenBrowserAndApplication -->
-    </test> <!-- Regression Tests -->
-  </suite> <!-- Regression Suite -->
+        </test-method> <!-- closeTest -->
+      </class> <!-- facebookBase.LoginTestWithMultipleBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
