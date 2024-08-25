@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="findElements.FacebookLinks">
+      <class name="locators.DynamicXpath">
         <methods>
+          <include name="dynamicXpathFormula"/>
           <include name="openFacebook"/>
-          <include name="specificLinkTest"/>
-          <include name="closeFacebook"/>
         </methods>
-      </class> <!-- findElements.FacebookLinks -->
+      </class> <!-- locators.DynamicXpath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
