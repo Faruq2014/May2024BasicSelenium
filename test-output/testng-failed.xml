@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locators.DynamicXpath">
+      <class name="dynamicCoding.DynamicLoginTest">
         <methods>
-          <include name="dynamicXpathFormula"/>
-          <include name="openFacebook"/>
+          <include name="vlidLoginTest"/>
         </methods>
-      </class> <!-- locators.DynamicXpath -->
+      </class> <!-- dynamicCoding.DynamicLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
