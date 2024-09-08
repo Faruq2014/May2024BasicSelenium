@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-01T12:03:29 EDT" name="Default suite" finished-at="2024-09-01T12:03:41 EDT" duration-ms="11347">
+  <suite started-at="2024-09-08T13:17:11 EDT" name="Default suite" finished-at="2024-09-08T13:17:14 EDT" duration-ms="3220">
     <groups>
     </groups>
-    <test started-at="2024-09-01T12:03:29 EDT" name="Default test" finished-at="2024-09-01T12:03:41 EDT" duration-ms="11347">
-      <class name="pageObjectModel.LoginTest">
-        <test-method is-config="true" signature="openFaceBook()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:29 EDT" name="openFaceBook" finished-at="2024-09-01T12:03:32 EDT" duration-ms="2515" status="PASS">
+    <test started-at="2024-09-08T13:17:11 EDT" name="Default test" finished-at="2024-09-08T13:17:14 EDT" duration-ms="3220">
+      <class name="synchronization.ExplicitTest">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:synchronization.ExplicitTest@564fabc8]" started-at="2024-09-08T13:17:11 EDT" name="openApp" finished-at="2024-09-08T13:17:13 EDT" duration-ms="2559" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFaceBook -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:32 EDT" name="invalidLoginTest" finished-at="2024-09-01T12:03:32 EDT" duration-ms="326" status="PASS">
+        </test-method> <!-- openApp -->
+        <test-method signature="loginTest()[pri:0, instance:synchronization.ExplicitTest@564fabc8]" started-at="2024-09-08T13:17:13 EDT" name="loginTest" finished-at="2024-09-08T13:17:14 EDT" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="closeFaceBook()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:32 EDT" name="closeFaceBook" finished-at="2024-09-01T12:03:32 EDT" duration-ms="216" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:synchronization.ExplicitTest@564fabc8]" started-at="2024-09-08T13:17:14 EDT" name="closeApp" finished-at="2024-09-08T13:17:14 EDT" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeFaceBook -->
-        <test-method is-config="true" signature="openFaceBook()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:32 EDT" name="openFaceBook" finished-at="2024-09-01T12:03:35 EDT" duration-ms="2246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFaceBook -->
-        <test-method signature="invalidUserLoginTest()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:35 EDT" name="invalidUserLoginTest" finished-at="2024-09-01T12:03:35 EDT" duration-ms="521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidUserLoginTest -->
-        <test-method is-config="true" signature="closeFaceBook()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:35 EDT" name="closeFaceBook" finished-at="2024-09-01T12:03:36 EDT" duration-ms="362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeFaceBook -->
-        <test-method is-config="true" signature="openFaceBook()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:36 EDT" name="openFaceBook" finished-at="2024-09-01T12:03:40 EDT" duration-ms="4151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openFaceBook -->
-        <test-method signature="validLoginTest()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:40 EDT" name="validLoginTest" finished-at="2024-09-01T12:03:40 EDT" duration-ms="685" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeFaceBook()[pri:0, instance:pageObjectModel.LoginTest@7b9a4292]" started-at="2024-09-01T12:03:40 EDT" name="closeFaceBook" finished-at="2024-09-01T12:03:41 EDT" duration-ms="264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeFaceBook -->
-      </class> <!-- pageObjectModel.LoginTest -->
+        </test-method> <!-- closeApp -->
+      </class> <!-- synchronization.ExplicitTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

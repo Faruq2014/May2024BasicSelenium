@@ -19,6 +19,12 @@ public class LoginPage {
 		return useNameinput;
 	}
 	
+	public WebElement userNameTwo(String uName) {
+		WebElement useNameinput=driver.findElement(By.id("email"));
+		useNameinput.sendKeys(uName);
+		return useNameinput;
+	}
+	
 	public WebElement password(String enterPass) {
 	WebElement	userPass=driver.findElement(By.name("pass"));
 	userPass.sendKeys(enterPass);

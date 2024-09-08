@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dynamicCoding.DynamicLoginTest">
+      <class name="synchronization.ExplicitTest">
         <methods>
-          <include name="vlidLoginTest"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- dynamicCoding.DynamicLoginTest -->
+      </class> <!-- synchronization.ExplicitTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
